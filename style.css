@@ -4,21 +4,21 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.information {
+.inform {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.information img {
+.inform img {
   width: 100%;
 }
-.information .information__add-info {
+.inform .inform__add-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .information { text-align: center;
+  .inform { text-align: center;
 }
 }
 .container {
@@ -128,7 +128,7 @@ button.section__delete-btn img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+.compl-tasks label {
   text-decoration: line-through
   color: #888;
 }
@@ -138,11 +138,11 @@ ul li input[type=text] {
   display:none
 }
 
-ul li.incomplete-tasks__edit-mode input[type=text] {
+ul li.incompl-tasks__edit-mode input[type=text] {
   display:inline-block;
   width:224px
 }
 
-ul li.incomplete-tasks__edit-mode label {
+ul li.incompl-tasks__edit-mode label {
   display:none;
 }
