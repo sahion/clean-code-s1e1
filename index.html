@@ -5,23 +5,46 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body>
-    <div class="aaa"><img src="./eisenhower-matrix.jpg"><a class="more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a></div>
-    <div class="centered-main-page-element">
-      <p id="top-section-for-adding-element-to-list"><label for="new-task">Add Item</label>
-        <div class="task-row-wrapper"><input id="new-task"class="task" type="text"><button>Add</button>
-        </div>
-      </p>
-      <h3>Todo</h3>
-      <ul id="incomplete-tasks">
-        <li><input type="checkbox"><label class="task">Pay Bills</label><input type="text" class="task"><button class="edit">Edit</button><button class="delete"><img src="./remove.svg"></button></li>
-        <li class="edit-mode"><input type="checkbox"><label class="task">Go Shopping</label><input type="text" value="Go Shopping" class="task"><button class="edit">Save</button><button class="delete"><img src="./remove.svg"></button></li>
-      </ul>
-      <h3>Completed</h3>
-      <ul id="completed-tasks">
-        <li><input type="checkbox" checked><label class="task">See the Doctor</label><input type="text" class="task"><button class="edit">Edit</button><button class="delete"><img src="./remove.svg"></button>
-        </li>
-      </ul>
+    <div class="information">
+      <img src="./eisenhower-matrix.jpg">
+      <a class="information__add-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </div>
+    <div class="container tasks">
+      <div class="tasks__section section">
+        <p id="section__header"><label for="new-task">Add Item</label></p>
+        <div class="section__add-item"><input id="new-task"class="section__field" type="text"><button>Add</button></div>
+      </div>
+      <div class="tasks-section section">
+        <h3 class="section__header">Todo</h3>
+        <ul id="section__incomplete-tasks incomplete-tasks">
+          <li class="incomplete-tasks__regular-mode">
+            <input type="checkbox">
+            <label class="section__field">Pay Bills</label>
+            <input type="text" class="section__field">
+            <button class="section__interaction-btn">Edit</button>
+            <button class="section__delete-btn"><img src="./remove.svg"></button>
+          </li>
+          <li class="incomplete-tasks__edit-mode">
+            <input type="checkbox">
+            <label class="section__field">Go Shopping</label>
+            <input type="text" value="Go Shopping" class="section__field">
+            <button class="section__interaction-btn">Save</button>
+            <button class="section__delete-btn"><img src="./remove.svg"></button></li>
+        </ul>
+      </div>
+      <div class="tasks-section section">
+        <h3 class="section__header">Completed</h3>
+        <ul class=" section__completed-tasks completed-tasks">
+          <li>
+            <input type="checkbox" checked>
+            <label class="section__field">See the Doctor</label>
+            <input type="text" class="section__field">
+            <button class="section__interaction-btn">Edit</button>
+            <button class="section__delete-btn"><img src="./remove.svg"></button>
+          </li>
+        </div>
+        </ul>
+      </div>
     <script src="app.js"></script>
   </body>
 </html>
