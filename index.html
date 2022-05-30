@@ -5,20 +5,20 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body>
-    <div class="page">
-      <div class="inform">
+    <main class="page">
+      <article class="inform">
         <img class="inform__img" src="./eisenhower-matrix.jpg">
         <a class="inform__add-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-      </div>
-      <div class="container tasks">
-        <div class="tasks__section section">
-          <label class="section__header" for="section__new-task">Add Item</label>
+      </article>
+      <article class="container tasks">
+        <section class="tasks__section section">
+          <h3><label class="section__header"  for="section__new-task">Add Item</label></h3>
           <div class="section__add-item">
             <input id="section__new-task" class="section__field section__input" type="text">
             <button class="section__btn">Add</button>
           </div>
-        </div>
-        <div class="tasks-section section">
+        </section>
+        <section class="tasks-section section ">
           <h3 class="section__header">Todo</h3>
           <ul id="section__list list incompl-tasks">
             <li class="incompl-tasks__reg-mode list__element">
@@ -26,17 +26,17 @@
               <label class="section__field list__label">Pay Bills</label>
               <input type="text" class="section__input section__field hidden">
               <button class="section__interact-btn section__btn">Edit</button>
-              <button class="section__delete-btn section__btn delete-btn"><img class="delete-btn__image" src="./remove.svg"></button>
+              <button class="section__delete-btn section__btn delete-btn"><img class="delete-btn__image" alt="delete task button" src="./remove.svg"></button>
             </li>
             <li class="incompl-tasks__edit-mode list__element edit-mode">
               <input class="list__checkbox" type="checkbox">
               <label class="section__field list__label edit-mode__label ">Go Shopping</label>
               <input type="text" value="Go Shopping" class="section__field list__label section__input edit-mode__input">
               <button class="section__interact-btn section__btn">Save</button>
-              <button class="section__delete-btn section__btn delete-btn"><img class="delete-btn__image" src="./remove.svg"></button></li>
+              <button class="section__delete-btn section__btn delete-btn"><img alt="delete task button" class="delete-btn__image" src="./remove.svg"></button></li>
           </ul>
-        </div>
-        <div class="tasks-section section">
+        </section>
+        <section class="tasks-section section">
           <h3 class="section__header">Completed</h3>
           <ul class=" section_list list compl-tasks">
             <li class="list__element">
@@ -44,12 +44,12 @@
               <label class="section__field list__label compl-tasks__label">See the Doctor</label>
               <input type="text" class="section__field section__input hidden">
               <button class="section__interact-btn section__btn">Edit</button>
-              <button class="section__delete-btn section__btn delete-btn"><img class="delete-btn__image" src="./remove.svg"></button>
+              <button class="section__delete-btn section__btn delete-btn"><img class="delete-btn__image" alt="delete task button" src="./remove.svg"></button>
             </li>
           </ul>
-        </div>
-      </div>
-    </div>
+        </section>
+      </article>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>

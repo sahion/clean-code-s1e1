@@ -11,6 +11,9 @@ li,
 h3 {
   list-style: none;
 }
+h3 {
+  margin: 0;
+}
 input,
 button{
   outline: none;
