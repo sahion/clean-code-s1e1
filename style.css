@@ -50,7 +50,7 @@ input,button{
 .section__field{
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .section__add-item {
   display: flex;
@@ -125,7 +125,7 @@ input,button{
   width: 226px;
 }
 .list__input {
-  width: 226px
+  width: 226px;
 }
 .delete-btn__image {
   height: 2em;
@@ -138,7 +138,7 @@ input,button{
 
 /* Completed */
 .compl-tasks__label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
@@ -149,7 +149,7 @@ input,button{
 
 .edit-mode__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode__label {
