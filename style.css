@@ -11,6 +11,7 @@ li,
 h3 {
   list-style: none;
 }
+body,
 h3 {
   margin: 0;
 }
@@ -19,6 +20,8 @@ button{
   outline: none;
 }
 
+
+
 /* Basic Style */
 
 
@@ -26,6 +29,9 @@ button{
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
+  height:100vh;
+  padding:8px;
+  
 }
 
 
@@ -102,7 +108,7 @@ button{
 /* New Task */
 .section__header[for="section__new-task"] {
   display: block;
-  margin: 0 0 20px;
+  margin: 16px 0 20px 0;
 }
 #section__new-task {
   width: 318px;
@@ -142,14 +148,14 @@ button{
 }
 
 /* Completed */
-.compl-tasks__label {
+.list__checkbox:checked ~ .list__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 .edit-mode__input {
