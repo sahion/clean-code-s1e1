@@ -38,7 +38,8 @@ input,button{
 }
 
 @media (max-width:768px) {
-  .inform { text-align: center;
+  .inform {
+      text-align: center;
 }
 }
 .container {
