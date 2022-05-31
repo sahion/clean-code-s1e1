@@ -29,8 +29,8 @@ button{
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
-  height:100vh;
-  padding:8px;
+  height: 100vh;
+  padding: 8px;
   
 }
 
@@ -50,7 +50,7 @@ button{
 
 @media (max-width: 768px) {
   .inform {
-      text-align: center;
+    text-align: center;
 }
 }
 .container {
